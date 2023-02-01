@@ -599,7 +599,7 @@ body {
   align-items: center;
   display: flex;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid #0000001a;
 }
 .is-hidden .box-click-button-modal {
   transform: scale(1.15);
@@ -620,4 +620,65 @@ body {
 .padding-text-box-portfolio {
   padding-left: 24px;
   padding-top: 20px;
+}
+
+/*modal-form*/
+
+.title-eight {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.name {
+  margin-left: 0;
+}
+
+.fromlist {
+  display: flexbox;
+  justify-content: center;
+  list-style: none;
+}
+
+textarea {
+  width: 416x;
+  height: 96px;
+  resize: none;
+}
+
+.border-text-area-outside {
+  width: 448px;
+  height: 120px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.button-order {
+  margin: auto;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 76px;
+  border-style: none;
+  text-align: center;
+}
+
+.text-nine {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1, 17;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #757575;
 }
