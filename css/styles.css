@@ -682,3 +682,16 @@ textarea {
   text-align: left;
   color: #757575;
 }
+.accept-square {
+  margin: auto;
+  align-items: center;
+  display: flex;
+  border: 1px solid #212121;
+}
+.accept-square:hover {
+  margin: auto;
+  align-items: center;
+  display: flex;
+  border: 1px solid #2196f3;
+  background-color: #2196f3;
+}
