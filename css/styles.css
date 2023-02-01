@@ -577,11 +577,10 @@ body {
   box-shadow: 1px 0px 2px rgb(0, 0, 0, 0.2), 1px 0px 1px rgb(0, 0, 0, 0.14),
     3px 0px 1px rgb(0, 0, 0, 0.12);
   position: absolute;
-  justify-content: right;
-  align-items: flex-start;
   transition-timing-function: ease-out;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
+  padding: 40px;
 }
 
 .modal-background {
@@ -635,25 +634,19 @@ body {
   margin-left: 0;
 }
 
-.fromlist {
-  display: flexbox;
-  justify-content: center;
-  list-style: none;
-}
-
 textarea {
-  width: 416x;
+  margin: 0auto;
   height: 96px;
+  width: 416px;
   resize: none;
-}
-
-.border-text-area-outside {
-  width: 448px;
-  height: 120px;
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 12px;
   padding-top: 12px;
+}
+.border-text-area-outside {
+  margin: 0auto;
+  height: 120px;
 }
 .button-order {
   margin: auto;
