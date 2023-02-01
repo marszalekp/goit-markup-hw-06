@@ -598,8 +598,8 @@ body {
   border: 1px solid #0000001a;
   padding: 10px;
   position: absolute;
-  margin-top: 8px;
-  margin-right: 8px;
+  top: 8px;
+  right: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -627,15 +627,6 @@ body {
 
 /*modal-form*/
 
-.title-eight {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1, 17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
-}
 .name {
   margin-left: 0;
 }
@@ -693,7 +684,54 @@ textarea {
   background-color: #2196f3;
 }
 
-.text-ten {
+.blue-and-underline {
+  color: #2196f3;
+  text-decoration: underline;
+  color: #2196f3;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+  color: #000000;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.position-text-form-h1 {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.position-text-form-h2 {
+  position: absolute;
+  left: 40px;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -701,10 +739,4 @@ textarea {
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
-}
-
-.blue-and-underline {
-  color: #2196f3;
-  text-decoration: underline;
-  color: #2196f3;
 }
