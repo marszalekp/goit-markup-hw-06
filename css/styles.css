@@ -581,6 +581,9 @@ body {
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-background {
