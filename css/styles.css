@@ -581,7 +581,7 @@ body {
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   padding: 40px;
-  display: flex;
+
   justify-content: center;
   align-items: center;
 }
@@ -600,6 +600,9 @@ body {
   border-radius: 50%;
   border: 1px solid #0000001a;
   padding: 10px;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 230px;
 }
 .is-hidden .box-click-button-modal {
   transform: scale(1.15);
