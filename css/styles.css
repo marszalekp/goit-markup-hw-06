@@ -595,11 +595,14 @@ body {
 }
 
 .button-close-x {
-  margin: auto;
-  align-items: center;
-  display: flex;
   border-radius: 50%;
   border: 1px solid #0000001a;
+  padding-top: 9px;
+  padding-right: 9px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  align-items: center;
+  justify-content: space-around;
 }
 .is-hidden .box-click-button-modal {
   transform: scale(1.15);
@@ -694,4 +697,20 @@ textarea {
   display: flex;
   border: 1px solid #2196f3;
   background-color: #2196f3;
+}
+
+.text-ten {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+}
+
+.blue-and-underline {
+  color: #2196f3;
+  text-decoration: underline;
+  color: #2196f3;
 }
