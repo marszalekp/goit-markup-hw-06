@@ -597,12 +597,7 @@ body {
 .button-close-x {
   border-radius: 50%;
   border: 1px solid #0000001a;
-  padding-top: 9px;
-  padding-right: 9px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  align-items: center;
-  justify-content: space-around;
+  padding: 10px;
 }
 .is-hidden .box-click-button-modal {
   transform: scale(1.15);
