@@ -777,7 +777,6 @@ textarea {
   color: #757575;
   margin-top: 10px;
   margin-bottom: 4px;
-  text-align: left;
 }
 .phone-item-input-id {
   font-family: Roboto;
@@ -789,7 +788,6 @@ textarea {
   color: #757575;
   margin-top: 10px;
   margin-bottom: 4px;
-  text-align: left;
 }
 .email-item-input-id {
   font-family: Roboto;
@@ -801,7 +799,6 @@ textarea {
   color: #757575;
   margin-top: 10px;
   margin-bottom: 4px;
-  text-align: left;
 }
 .email-item-input-id {
   font-family: Roboto;
@@ -813,7 +810,6 @@ textarea {
   color: #757575;
   margin-top: 10px;
   margin-bottom: 4px;
-  text-align: left;
 }
 
 .comment-item-input {
@@ -826,7 +822,6 @@ textarea {
   color: #757575;
   margin-top: 10px;
   margin-bottom: 4px;
-  text-align: left;
 }
 
 .checkbox-item-id {
@@ -839,5 +834,4 @@ textarea {
   color: #757575;
   margin-top: 10px;
   margin-bottom: 4px;
-  text-align: left;
 }
