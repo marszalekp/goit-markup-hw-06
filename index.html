@@ -80,84 +80,78 @@
           <buttton class="button" type="button" data-modal-open
             >Zamów usługe</buttton
           >
-          <div class="modal-background is-hidden" data-modal>
-            <div class="box-click-button-modal">
-              <a class="button-close-x" data-modal-close>
-                <svg width="11px" height="11px">
-                  <use href="images/closexone.svg#icon-closex"></use>
-                </svg>
-              </a>
+
+          <div class="box-click-button-modal">
+            <a class="button-close-x" data-modal-close>
+              <svg width="11px" height="11px">
+                <use href="images/closexone.svg#icon-closex"></use>
+              </svg>
+            </a>
+            <div>
               <div>
+                <span class="position-text-form-h1"
+                  >Zostaw swoje dane w formularzu poniżej</span
+                >
+              </div>
+
+              <div>
+                <label for="name-item">Imię</label>
+                <div style="max-width: 448px; margin: auto">
+                  <div class="input-icons">
+                    <i class="fa fa-user icon"></i>
+                    <input id="name-item" type="text" class="input-field" />
+                  </div>
+                </div>
+
+                <label for="phone-item">Telefon</label>
+                <div style="max-width: 448px; margin: auto">
+                  <div class="input-icons">
+                    <i class="fa fa-phone icon"></i>
+                    <input id="phone-item" class="input-field" type="text" />
+                  </div>
+                </div>
+
+                <label for="email-item">Email</label>
+                <div style="max-width: 448px; margin: auto">
+                  <div class="input-icons">
+                    <i class="fa fa-envelope icon"></i>
+                    <input id="email-item" class="input-field" type="text" />
+                  </div>
+                </div>
+
+                <label for="comment-item"
+                  ><span class="title-nine">Komentarz</span></label
+                >
+
                 <div>
-                  <span class="position-text-form-h1"
-                    >Zostaw swoje dane w formularzu poniżej</span
-                  >
+                  <textarea
+                    name="feedback"
+                    rows="5"
+                    placeholder="Wprowadź tekst"
+                  ></textarea>
                 </div>
 
                 <div>
-                  <label for="name-item">Imię</label>
-                  <div style="max-width: 448px; margin: auto">
-                    <div class="input-icons">
-                      <i class="fa fa-user icon"></i>
-                      <input id="name-item" type="text" class="input-field" />
-                    </div>
-                  </div>
+                  <input for="checkbox-item" type="chceckbox" />
+                  <svg class="accept-square" width="16" heigh="15" fill="white">
+                    <use href="images/spriteiconshmsix.svg#icon-accept"></use>
+                  </svg>
 
-                  <label for="phone-item">Telefon</label>
-                  <div style="max-width: 448px; margin: auto">
-                    <div class="input-icons">
-                      <i class="fa fa-phone icon"></i>
-                      <input id="phone-item" class="input-field" type="text" />
-                    </div>
-                  </div>
-
-                  <label for="email-item">Email</label>
-                  <div style="max-width: 448px; margin: auto">
-                    <div class="input-icons">
-                      <i class="fa fa-envelope icon"></i>
-                      <input id="email-item" class="input-field" type="text" />
-                    </div>
-                  </div>
-
-                  <label for="comment-item"
-                    ><span class="title-nine">Komentarz</span></label
-                  >
-
-                  <div>
-                    <textarea
-                      name="feedback"
-                      rows="5"
-                      placeholder="Wprowadź tekst"
-                    ></textarea>
-                  </div>
-
-                  <div>
-                    <input for="checkbox-item" type="chceckbox" />
-                    <svg
-                      class="accept-square"
-                      width="16"
-                      heigh="15"
-                      fill="white"
+                  <label id="checkbox-item" class="text-ten">
+                    Oświadczam iż akceptuję
+                    <a href="./index.html"
+                      ><span class="blue-and-underline">Regulamin</span></a
                     >
-                      <use href="images/spriteiconshmsix.svg#icon-accept"></use>
-                    </svg>
+                    i
 
-                    <label id="checkbox-item" class="text-ten">
-                      Oświadczam iż akceptuję
-                      <a href="./index.html"
-                        ><span class="blue-and-underline">Regulamin</span></a
-                      >
-                      i
-
-                      <a href="./index.html">
-                        <span class="blue-and-underline"
-                          >Politykę Prywatności.</span
-                        ></a
-                      >
-                    </label>
-                  </div>
-                  <button class="button-order" type="submit">Wyślij</button>
+                    <a href="./index.html">
+                      <span class="blue-and-underline"
+                        >Politykę Prywatności.</span
+                      ></a
+                    >
+                  </label>
                 </div>
+                <button class="button-order" type="submit">Wyślij</button>
               </div>
             </div>
           </div>
@@ -654,4 +648,5 @@
 
     <script src="./js/modal.js"></script>
   </body>
+  <div class="modal-background is-hidden" data-modal></div>
 </html>
