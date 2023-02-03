@@ -19,10 +19,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
   </head>
 
   <body>
@@ -540,12 +536,11 @@
             </ul>
           </div>
 
-          <div class="footer-part-two">
+          <div class="footer-part-three">
             <p class="title-four white">ZAPISZ SIĘ DO NEWSLETTERA</p>
-
-            <ul class="icon-items">
-              <li class="icon-items">
-                <form name="signup_form" autocomplete="on" novalidate>
+            <form name="signup_form" autocomplete="on">
+              <ul class="icon-items">
+                <li class="icon-items">
                   <label>
                     <input
                       class="input-fieldfooter"
@@ -554,18 +549,17 @@
                       placeholder="E-mail"
                     />
                   </label>
-
+                </li>
+                <li class="icon-items">
                   <button type="submit" class="buttonfour">
-                    <a>
-                      Zapisz się
-                      <svg width="24px" height="24px">
-                        <use href="images/icons.svg#icon-plane"></use>
-                      </svg>
-                    </a>
+                    <span class="position-text-in-icon">Zapisz się</span>
+                    <svg class="position-icon" width="24px" height="24px">
+                      <use href="images/icons.svg#icon-plane"></use>
+                    </svg>
                   </button>
-                </form>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </form>
           </div>
         </footer>
         <div class="modal-background is-hidden" data-modal>
@@ -584,7 +578,11 @@
                 <label class="title-nine" for="">Imię</label>
                 <div style="max-width: 448px; margin: auto">
                   <div class="input-icons">
-                    <i class="fa fa-user icon"></i>
+                    <i class="fa icon">
+                      <svg width="12px" height="12px">
+                        <use href="images/icons.svg#icon-person"></use>
+                      </svg>
+                    </i>
                     <input id="" type="text" class="input-field" />
                   </div>
                 </div>
@@ -592,7 +590,11 @@
                 <label class="title-nine" for="">Telefon</label>
                 <div style="max-width: 448px; margin: auto">
                   <div class="input-icons">
-                    <i class="fa fa-phone icon"></i>
+                    <i class="fa icon">
+                      <svg width="12px" height="12px">
+                        <use href="images/icons.svg#icon-phonetwo"></use>
+                      </svg>
+                    </i>
                     <input id="phone-item" class="input-field" type="text" />
                   </div>
                 </div>
@@ -600,42 +602,38 @@
                 <label class="title-nine" for="">Email</label>
                 <div style="max-width: 448px; margin: auto">
                   <div class="input-icons">
-                    <i class="fa fa-envelope icon"></i>
+                    <i class="fa icon">
+                      <svg width="12px" height="12px">
+                        <use href="images/icons.svg#icon-envelopetwo"></use>
+                      </svg>
+                    </i>
                     <input id="" class="input-field" type="text" />
                   </div>
                 </div>
 
                 <label class="title-nine" for="">Komentarz</label>
 
-                <div>
-                  <textarea
-                    id=""
-                    name="feedback"
-                    rows="5"
-                    placeholder="Wprowadź tekst"
-                  ></textarea>
-                </div>
+                <textarea
+                  id=""
+                  name="feedback"
+                  rows="5"
+                  placeholder="Wprowadź tekst"
+                ></textarea>
 
-                <div>
+                <label for="" class="text-ten">
                   <input id="" type="checkbox" />
-                  <svg class="checkbox" width="16" heigh="15" fill="white">
-                    <use href="images/spriteiconshmsix.svg#icon-accept"></use>
-                  </svg>
+                  Oświadczam iż akceptuję
+                  <a href="./index.html"
+                    ><span class="blue-and-underline">Regulamin</span></a
+                  >
+                  i
+                  <a href="./index.html">
+                    <span class="blue-and-underline"
+                      >Politykę Prywatności.</span
+                    ></a
+                  >
+                </label>
 
-                  <label for="" class="text-ten">
-                    Oświadczam iż akceptuję
-                    <a href="./index.html"
-                      ><span class="blue-and-underline">Regulamin</span></a
-                    >
-                    i
-
-                    <a href="./index.html">
-                      <span class="blue-and-underline"
-                        >Politykę Prywatności.</span
-                      ></a
-                    >
-                  </label>
-                </div>
                 <button class="button-order" type="submit">Wyślij</button>
               </div>
             </div>
