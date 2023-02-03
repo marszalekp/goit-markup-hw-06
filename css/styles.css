@@ -660,20 +660,18 @@ textarea {
   padding: 10px 76px;
   border-style: none;
   text-align: center;
+  display: flex;
 }
 
-.accept-square {
-  margin-right: 7px;
+.checkbox {
   align-items: center;
   display: flex;
   border: 1px solid #212121;
   height: 15px;
   width: 16px;
-  position: relative;
-  top: 3px;
 }
-.accept-square:hover {
-  margin-right: 7px;
+
+.checkbox:hover {
   align-items: center;
   display: flex;
   border: 1px solid #2196f3;
@@ -710,14 +708,16 @@ textarea {
     3px 0px 1px rgba(0, 0, 0, 0.12);
 }
 .position-text-form-h1 {
-  width: 448px;
-  height: 23px;
   font-family: Roboto;
   font-size: 20px;
   font-weight: 700;
   line-height: 1, 17;
   letter-spacing: 0.03em;
   color: #212121;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 0auto;
 }
 
 .text-ten {
@@ -767,74 +767,6 @@ textarea {
   text-align: left;
 }
 
-.name-item-input-id {
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1, 17;
-  letter-spacing: 0.01em;
-  text-align: left;
-  color: #757575;
-  margin-top: 10px;
-  margin-bottom: 4px;
-}
-.phone-item-input-id {
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1, 17;
-  letter-spacing: 0.01em;
-  text-align: left;
-  color: #757575;
-  margin-top: 10px;
-  margin-bottom: 4px;
-}
-.email-item-input-id {
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1, 17;
-  letter-spacing: 0.01em;
-  text-align: left;
-  color: #757575;
-  margin-top: 10px;
-  margin-bottom: 4px;
-}
-.email-item-input-id {
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1, 17;
-  letter-spacing: 0.01em;
-  text-align: left;
-  color: #757575;
-  margin-top: 10px;
-  margin-bottom: 4px;
-}
-
-.comment-item-input {
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1, 17;
-  letter-spacing: 0.01em;
-  text-align: left;
-  color: #757575;
-  margin-top: 10px;
-  margin-bottom: 4px;
-}
-
-.checkbox-item-id {
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1, 17;
-  letter-spacing: 0.01em;
-  text-align: left;
-  color: #757575;
-  margin-top: 10px;
-  margin-bottom: 4px;
-}
 .title-nine {
   font-family: Roboto;
   font-size: 12px;
