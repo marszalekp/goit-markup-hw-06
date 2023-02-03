@@ -736,6 +736,7 @@ textarea:focus {
   color: #757575;
   display: block;
   margin: 20px 0 auto;
+  cursor: pointer;
 }
 
 .size {
@@ -744,7 +745,6 @@ textarea:focus {
 }
 
 .buttonfour {
-  margin: auto;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -755,12 +755,11 @@ textarea:focus {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 42px;
-  padding-right: 28px;
   border-style: none;
   text-align: center;
+  padding: 13px 30px;
+  display: flex;
+  align-items: center;
 }
 .input-fieldfooter {
   width: 358px;
@@ -803,10 +802,35 @@ textarea:focus {
 }
 
 .position-icon {
-  padding: auto;
-  height: 100%;
+  margin-left: 24px;
 }
-.position-text-in-icon {
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+.text-in-button-newsletter {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
+  margin-left: 42px;
+}
+
+.rules-checkbox:checked.rules-checkbox::before {
+  background-image: href= "images/icons.svg#icon-accept";
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.rules-checkbox::before {
+  content: "";
+  display: block;
+  cursor: pointer;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
+}
+
+*::after,
+::before {
+  box-sizing: border-box;
 }
