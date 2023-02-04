@@ -583,7 +583,12 @@
                         <use href="images/icons.svg#icon-person"></use>
                       </svg>
                     </i>
-                    <input id="name-input-id" type="text" class="input-field" />
+                    <input
+                      id="name-input-id"
+                      type="text"
+                      class="input-field"
+                      required
+                    />
                   </div>
                 </div>
 
@@ -625,29 +630,27 @@
                   rows="5"
                   placeholder="Wprowadź tekst"
                 ></textarea>
-
-                <label
-                  for="checkbox-input-id"
-                  class="text-ten"
-                  class="rules-checkbox"
-                >
+                <div class="rules-acceptation form__transitions">
                   <input
                     id="checkbox-input-id"
                     type="checkbox"
                     width="16px"
                     height="15px"
+                    class="rules-checkbox"
                   />
-                  Oświadczam iż akceptuję
-                  <a href="./index.html"
-                    ><span class="blue-and-underline">Regulamin</span></a
-                  >
-                  i
-                  <a href="./index.html">
-                    <span class="blue-and-underline"
-                      >Politykę Prywatności.</span
-                    ></a
-                  >
-                </label>
+                  <label for="checkbox-input-id" class="text-ten">
+                    Oświadczam iż akceptuję
+                    <a href="./index.html"
+                      ><span class="blue-and-underline">Regulamin</span></a
+                    >
+                    i
+                    <a href="./index.html">
+                      <span class="blue-and-underline"
+                        >Politykę Prywatności.</span
+                      ></a
+                    >
+                  </label>
+                </div>
 
                 <button class="button-order" type="submit">Wyślij</button>
               </div>
