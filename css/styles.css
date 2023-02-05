@@ -688,12 +688,9 @@ textarea:focus {
   color: #2196f3;
 }
 
-.input-icons i {
-  position: absolute;
-}
-
 .input-icons {
   width: 100%;
+  position: relative;
 }
 
 .icon {
@@ -711,11 +708,13 @@ textarea:focus {
   padding-left: 30px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
+  display: block;
+  padding: 10px 0 10px 42px;
 }
 .input-field:focus {
   border: 1px solid #2196f3;
 }
-.position-text-form-h1 {
+.modal__title-text {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 700;
@@ -726,6 +725,9 @@ textarea:focus {
   justify-content: center;
   margin-bottom: 12px;
   margin-top: 0auto;
+}
+.modal-padding {
+  padding: 40px;
 }
 
 .text-ten {
@@ -841,6 +843,6 @@ textarea:focus {
 .rules-acceptation {
   color: #2196f3;
 }
-.form__transitions {
-  transition: transform 800ms ease, opacity 1000ms ease;
+ul {
+  list-style-type: none;
 }

@@ -569,67 +569,77 @@
                 <use href="images/closexone.svg#icon-closex"></use>
               </svg>
             </a>
-            <div>
-              <span class="position-text-form-h1"
-                >Zostaw swoje dane w formularzu poniżej</span
-              >
-
-              <div>
-                <label class="title-nine" for="name-input-id">Imię</label>
-                <div style="max-width: 448px; margin: auto">
-                  <div class="input-icons">
-                    <i class="fa icon">
+            <!--Form-->
+            <form class="modal__modal-padding">
+              <h1 class="modal__title-text">
+                Zostaw swoje dane w formularzu poniżej
+              </h1>
+              <ul class="form_items">
+                <!--NAME-->
+                <li class="form_item">
+                  <label class="title-nine" for="name-input-id">Imię</label>
+                  <div class="input-field">
+                    <div class="input-icons">
                       <svg width="12px" height="12px">
                         <use href="images/icons.svg#icon-person"></use>
                       </svg>
-                    </i>
-                    <input
-                      id="name-input-id"
-                      type="text"
-                      class="input-field"
-                      required
-                    />
+                      <input
+                        id="name-input-id"
+                        type="text"
+                        name="name"
+                        required
+                      />
+                    </div>
                   </div>
-                </div>
-
-                <label class="title-nine" for="phone-input-id">Telefon</label>
-                <div style="max-width: 448px; margin: auto">
-                  <div class="input-icons">
-                    <i class="fa icon">
+                </li>
+                <!--PHONE-->
+                <li class="form_item">
+                  <label class="title-nine" for="phone-input-id">Telefon</label>
+                  <div style="max-width: 448px; margin: auto">
+                    <div class="input-icons">
                       <svg width="12px" height="12px">
                         <use href="images/icons.svg#icon-phonetwo"></use>
                       </svg>
-                    </i>
-                    <input
-                      id="phone-input-id"
-                      class="input-field"
-                      type="text"
-                    />
-                  </div>
-                </div>
 
-                <label class="title-nine" for="mail-input-id">Email</label>
-                <div style="max-width: 448px; margin: auto">
-                  <div class="input-icons">
-                    <i class="fa icon">
+                      <input
+                        id="phone-input-id"
+                        class="input-field"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <!--EMAIL-->
+                <li class="form_item">
+                  <label class="title-nine" for="mail-input-id">Email</label>
+                  <div style="max-width: 448px; margin: auto">
+                    <div class="input-icons">
                       <svg width="12px" height="12px">
                         <use href="images/icons.svg#icon-envelopetwo"></use>
                       </svg>
-                    </i>
-                    <input id="mail-input-id" class="input-field" type="text" />
+
+                      <input
+                        id="mail-input-id"
+                        class="input-field"
+                        type="text"
+                      />
+                    </div>
                   </div>
-                </div>
+                </li>
+                <!--COMMENT-->
+                <li class="form_item">
+                  <label class="title-nine" for="coment-input-id"
+                    >Komentarz</label
+                  >
 
-                <label class="title-nine" for="coment-input-id"
-                  >Komentarz</label
-                >
-
-                <textarea
-                  id="coment-input-id"
-                  name="feedback"
-                  rows="5"
-                  placeholder="Wprowadź tekst"
-                ></textarea>
+                  <textarea
+                    id="coment-input-id"
+                    name="feedback"
+                    rows="5"
+                    placeholder="Wprowadź tekst"
+                  ></textarea>
+                </li>
+                <!--CHECKBOX ACCEPT-->
                 <div class="rules-acceptation form__transitions">
                   <input
                     id="checkbox-input-id"
@@ -653,8 +663,8 @@
                 </div>
 
                 <button class="button-order" type="submit">Wyślij</button>
-              </div>
-            </div>
+              </ul>
+            </form>
           </div>
         </div>
       </div>
