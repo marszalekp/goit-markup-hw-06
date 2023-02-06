@@ -738,7 +738,6 @@ textarea:focus {
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
-  display: block;
   margin: 20px 0 auto;
   cursor: pointer;
 }
@@ -819,14 +818,10 @@ textarea:focus {
 }
 
 .rules-checkbox:checked.rules-checkbox::before {
-  background-image: href= "images/icons.svg#icon-accept";
+  background-image: url("data:images/icons.svg#icon-accept");
   background-size: contain;
   background-repeat: no-repeat;
-  border: 1px solid #2196f3;
-  background-color: #2196f3;
-  align-items: center;
-  display: block;
-  text-align: center;
+  border: none;
 }
 
 .rules-checkbox::before {
