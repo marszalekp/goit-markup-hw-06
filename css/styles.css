@@ -824,6 +824,9 @@ textarea:focus {
   background-repeat: no-repeat;
   border: 1px solid #2196f3;
   background-color: #2196f3;
+  align-items: center;
+  display: block;
+  text-align: center;
 }
 
 .rules-checkbox::before {
